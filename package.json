@@ -1,0 +1,30 @@
+{
+  "name": "firstandroidtest",
+  "version": "1.0.0",
+  "description": "first android test run",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio",
+    "start": "node firstTest.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "appium": "^1.7.2",
+    "appium-uiautomator2-driver": "^0.4.6",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^5.1.1",
+    "npm": "^5.10.0",
+    "wd": "^1.7.0",
+    "wdio-sync": "^0.7.1",
+    "xcode-build-tool": "^0.3.0",
+    "xcode-build-tools": "^4.18.0"
+  },
+  "devDependencies": {
+    "wdio-appium-service": "^0.2.3",
+    "wdio-mocha-framework": "^0.5.13",
+    "wdio-spec-reporter": "^0.1.4",
+    "webdriverio": "^4.12.0"
+  }
+}
