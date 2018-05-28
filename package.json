@@ -4,7 +4,7 @@
   "description": "first android test run",
   "main": "index.js",
   "scripts": {
-    "test": "wdio",
+    "test": "jenkins-mocha",
     "start": "node shareit_ui_test.js"
   },
   "author": "",
@@ -25,6 +25,7 @@
     "wdio-appium-service": "^0.2.3",
     "wdio-mocha-framework": "^0.5.13",
     "wdio-spec-reporter": "^0.1.4",
-    "webdriverio": "^4.12.0"
+    "webdriverio": "^4.12.0",
+    "jenkins-mocha": "latest"
   }
 }
