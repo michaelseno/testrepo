@@ -22,10 +22,11 @@
     "xcode-build-tools": "^4.18.0"
   },
   "devDependencies": {
+    "jenkins-mocha": "latest",
+    "mocha-junit-reporter": "^1.17.0",
     "wdio-appium-service": "^0.2.3",
     "wdio-mocha-framework": "^0.5.13",
     "wdio-spec-reporter": "^0.1.4",
-    "webdriverio": "^4.12.0",
-    "jenkins-mocha": "latest"
+    "webdriverio": "^4.12.0"
   }
 }
