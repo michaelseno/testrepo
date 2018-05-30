@@ -1,6 +1,6 @@
 var chai = require('chai').assert;
 var webdriverio = require('webdriverio');
-var config = require('/Users/Shared/Jenkins/Home/workspace/test_automation/helpers/desiredCapabilities').option_shareit;
+var config = require('./desiredCapabilities').option_shareit;
 var client = webdriverio.remote(config);
 var errorMsg = 'ERROR: not in the correct Activity';
 
