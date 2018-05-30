@@ -4,12 +4,11 @@
   "description": "first android test run",
   "main": "index.js",
   "directories": {
-    "test": "test",
-    "desiredCapabilities": "helpers"
+    "test": "test"
   },
   "scripts": {
     "test": "mocha", 
-    "start": "test/shareit_ui_test.js"
+    "start": "test/wispi_ui_test.js"
   },
   "repository": {
     "type": "git",
