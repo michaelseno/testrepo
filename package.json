@@ -1,11 +1,14 @@
 {
-  "name": "firstandroidtest",
+  "name": "testrepo",
   "version": "1.0.0",
   "description": "first android test run",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "jenkins-mocha",
-    "start": "node shareit_ui_test.js"
+    "test": "mocha", 
+    "start": "test/shareit_ui_test.js"
   },
   "author": "",
   "license": "ISC",
