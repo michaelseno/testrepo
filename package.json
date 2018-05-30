@@ -24,6 +24,7 @@
   "devDependencies": {
     "jenkins-mocha": "latest",
     "mocha-junit-reporter": "^1.17.0",
+    "mocha-multi": "^1.0.1",
     "wdio-appium-service": "^0.2.3",
     "wdio-mocha-framework": "^0.5.13",
     "wdio-spec-reporter": "^0.1.4",
