@@ -1,0 +1,88 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2018-05-30T04:18:08.063Z",
+    "end": "2018-05-30T04:18:57.469Z",
+    "duration": 49406
+  },
+  "tests": [
+    {
+      "title": "Install and Open App",
+      "fullTitle": "ShareIt UI TEST Install and Open App",
+      "duration": 20482,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Press Start",
+      "fullTitle": "ShareIt UI TEST Press Start",
+      "duration": 3303,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Enter name and Enter ShareIt",
+      "fullTitle": "ShareIt UI TEST Enter name and Enter ShareIt",
+      "duration": 17997,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "validation if in the correct page",
+      "fullTitle": "ShareIt UI TEST validation if in the correct page",
+      "duration": 104,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should end the session",
+      "fullTitle": "ShareIt UI TEST should end the session",
+      "duration": 7499,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "Install and Open App",
+      "fullTitle": "ShareIt UI TEST Install and Open App",
+      "duration": 20482,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Press Start",
+      "fullTitle": "ShareIt UI TEST Press Start",
+      "duration": 3303,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Enter name and Enter ShareIt",
+      "fullTitle": "ShareIt UI TEST Enter name and Enter ShareIt",
+      "duration": 17997,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "validation if in the correct page",
+      "fullTitle": "ShareIt UI TEST validation if in the correct page",
+      "duration": 104,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should end the session",
+      "fullTitle": "ShareIt UI TEST should end the session",
+      "duration": 7499,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}

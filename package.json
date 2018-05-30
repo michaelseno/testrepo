@@ -4,7 +4,8 @@
   "description": "first android test run",
   "main": "index.js",
   "directories": {
-    "test": "test"
+    "test": "test",
+    "desiredCapabilities": "helpers"
   },
   "scripts": {
     "test": "mocha", 

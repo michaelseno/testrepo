@@ -1,0 +1,40 @@
+    <section class="suite">
+      <h1>ShareIt UI TEST</h1>
+      <dl>
+        <dt>Install and Open App</dt>
+        <dd><pre><code>async function () {
+        await client.init();
+        await client.pause(3000);
+        await client.click(&#x27;#button2&#x27;);
+    }</code></pre></dd>
+        <dt>Press Start</dt>
+        <dd><pre><code>async function () {
+        var activity = await client.getCurrentDeviceActivity();
+        var expectedActivity = &#x27;com.lenovo.anyshare.ApMainActivity&#x27;;
+        chai.equal(activity,expectedActivity,errorMsg); 
+        await client.click(&#x27;#ov&#x27;);
+    }</code></pre></dd>
+        <dt>Enter name and Enter ShareIt</dt>
+        <dd><pre><code>async function () {   
+        var activity = await client.getCurrentDeviceActivity();
+        var expectedActivity = &#x27;com.lenovo.anyshare.account.AccountSettingsActivity&#x27;;
+        chai.equal(activity,expectedActivity,errorMsg);  
+        var inputPhn = &#x27;#c0&#x27;;
+        await client.setValue(inputPhn, &#x27;michaeljordanseno&#x27;);
+        await client.hideDeviceKeyboard();
+        await client.click(&#x27;#c5&#x27;);
+        await client.back();
+        await client.back();        
+    }</code></pre></dd>
+        <dt>validation if in the correct page</dt>
+        <dd><pre><code>async function () {
+        var activity = await client.getCurrentDeviceActivity();
+        var expectedActivity = &#x27;com.lenovo.anyshare.main.MainActivity&#x27;;
+        chai.equal(activity,expectedActivity,errorMsg); 
+    }</code></pre></dd>
+        <dt>should end the session</dt>
+        <dd><pre><code>async function () {
+       await client.pause(6000).end();
+    }</code></pre></dd>
+      </dl>
+    </section>
