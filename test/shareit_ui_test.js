@@ -1,7 +1,21 @@
 var chai = require('chai').assert;
 var webdriverio = require('webdriverio');
-var config = require('./desiredCapabilities').option_shareit;
-var client = webdriverio.remote(config);
+var options = {
+    desiredCapabilities: {
+        browserName: '',
+        'appium-version': '1.7.2',
+        platformName: 'Android',
+        platformVersion: '8.0',
+        deviceName: '8UEDU17C11013195',
+        app: '/Users/michaelseno/Documents/firstAndroidTest/apk/SHAREit_4.0.38_ww.apk',
+        newCommandTimeout: '600000',
+        appActivity: 'com.lenovo.anyshare.ApMainActivity',
+        appPackage: 'com.lenovo.anyshare.gps',
+    },
+    host: 'localhost',
+    port: 4723
+ };
+var client = webdriverio.remote(options);
 var errorMsg = 'ERROR: not in the correct Activity';
 
 
