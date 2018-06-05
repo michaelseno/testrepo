@@ -1,40 +1,36 @@
 {
-  "name": "testrepo",
+  "name": "ci-sample",
   "version": "1.0.0",
-  "description": "first android test run",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "directories": {
     "test": "test"
   },
-  "scripts": {
-    "test": "mocha", 
-    "start": "test/shareit_ui_test.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/michaelseno/testrepo.git"
-  },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "appium": "^1.7.2",
-    "appium-uiautomator2-driver": "^0.4.6",
-    "chai": "^4.1.2",
-    "chai-as-promised": "^7.1.1",
-    "mocha": "^5.1.1",
-    "npm": "^5.10.0",
-    "wd": "^1.7.0",
-    "wdio-sync": "^0.7.1",
-    "xcode-build-tool": "^0.3.0",
-    "xcode-build-tools": "^4.18.0"
+    "express": "^4.14.0",
+    "oniguruma": "^7.0.0"
   },
   "devDependencies": {
-    "jenkins-mocha": "latest",
+    "mocha": "^3.1.2",
+    "mocha-jenkins-reporter": "^0.3.7",
     "mocha-junit-reporter": "^1.17.0",
     "mocha-multi": "^1.0.1",
-    "wdio-appium-service": "^0.2.3",
-    "wdio-mocha-framework": "^0.5.13",
-    "wdio-spec-reporter": "^0.1.4",
-    "webdriverio": "^4.12.0"
-  }
+    "should": "^11.1.1",
+    "supertest": "^2.0.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "test/test.js"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lethalbrains/ci-sample.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lethalbrains/ci-sample/issues"
+  },
+  "homepage": "https://github.com/lethalbrains/ci-sample#readme",
+  "author": "Rahul J <rahul@lethalbrains.com>",
+  "license": "ISC"
 }
